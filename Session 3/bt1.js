@@ -7,4 +7,4 @@ while (i < 5)
     i ++;
     n = n*0.4;
 }
-document.write("Quả bóng đi được quãng đường là: " + t);
+document.write("Quả bóng đi được quãng đường là: " + t + " m");
