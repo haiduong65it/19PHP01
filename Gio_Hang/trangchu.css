@@ -1,0 +1,21 @@
+#sanpham_full {
+    display: none;
+}
+#content {
+    width: 30%;
+    margin: 0 auto;
+}
+.sanpham img {
+    float: left;
+    width: 45%;
+    height: 180px;
+    margin: 2%;
+}
+#content .sanpham_full img{
+    clear: both;
+    width: 80%;
+    margin: auto;
+}
+a {
+    text-align: center;
+}

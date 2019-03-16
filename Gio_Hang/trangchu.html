@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="trangchu.css">
+</head>
+<body>
+    <div id="content">
+        <div class="sanpham">
+            <img src="iphone-xs-max-gray.jpg" alt="iphone XS Max Gray" onclick="getdata('IP_XS_Max')">
+        </div>
+        <div class="sanpham">
+            <img src="oppo-a7-32gb-gold.jpg" alt="Oppo A7 32Gb Gold" onclick="getdata('Oppo_A7')">
+        </div>
+        <div class="sanpham">
+            <img src="samsung-galaxy-a9-2018-blue.jpg" alt="samsung-galaxy-a9-2018-blue" onclick="getdata('SS_A9')">
+        </div>
+        <div class="sanpham">
+            <img src="samsung-galaxy-a50-white.jpg" alt="samsung-galaxy-a50-white" onclick="getdata('SS_A50')">
+        </div>
+        <div id="sanpham_full">
+            <form action="">
+                <img src="" alt="default" id="default">
+                <div id="Show">
+                    <p>Tên sản phẩm:  <span id="name"></span></p>
+                    <p>Pin: <span id="pin"></span></p>
+                    <p>Ram: <span id="ram"></span></p>
+                    <p>Rom: <span id="rom"></span></p>
+                    <input type="button" id="them" value="Thêm vào giỏ" onclick="them_vao_gio()">
+                </form>
+            </div>
+        </div>
+        <a href="giohang.html" onclick="show()" target="_blank">Xem giỏ hàng</a>
+    </div>
+    <script src="giohang.js"></script>
+</body>
+</html>
