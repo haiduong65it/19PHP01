@@ -1,3 +1,17 @@
+var SP = [
+    {
+        masp: 'IP_XS_Max',
+        ten: 'Iphone XS Max Gray',
+        pin: '3174 mAh, có sạc nhanh',
+    },
+    {
+        masp: 'Oppo_A7',
+        ten: 'Oppo A7 32Gb Gold',
+        pin: '3174 mAh, có sạc nhanh',
+    }
+];
+
+
 function getdata(sanpham){
     document.getElementById('sanpham_full').style.display = 'block';
     switch (sanpham) {
@@ -62,4 +76,4 @@ function show(){
         localStorage.kq += "Samsung Galaxy A50 128GB <br> " + "Số lượng:" + localStorage['SS_A50'] + " cái <br>";
     }
 }
-document.getElementById('output').innerHTML = localStorage.kq;
+document.getElementById('output').innerHTML = localStorage.kq + localStorage.getItem('SP');
